@@ -1,5 +1,4 @@
-![Uploading image.png…]()
-
+![image](https://github.com/LeticiaBHB/Angular-Store/assets/124852398/3ccd2904-99ea-4336-9b90-0af060182cc7)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server
