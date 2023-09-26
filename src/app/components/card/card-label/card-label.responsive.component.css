@@ -1,0 +1,28 @@
+/* Estilos para telas com largura menor ou igual a 320px (exemplo: telas de celulares menores) */
+@media (max-width: 320px) {
+  .card-label__container {
+    /* Adicione estilos específicos para telas de celulares menores, se necessário */
+  }
+
+  .card-label__content {
+    /* Diminuindo o tamanho do card */
+    font-size: 8px; /* Reduzindo o tamanho da fonte */
+    height: 20px; /* Reduzindo a altura do card */
+    padding: 0 10px; /* Reduzindo o preenchimento do card */
+  }
+}
+
+/* Estilos para telas com largura menor ou igual a 560px */
+@media (max-width: 560px) {
+  .card-label__container {
+    position: relative; /* Altere para relative ou outro valor apropriado */
+    bottom: auto; /* Remova a propriedade bottom ou ajuste conforme necessário */
+    right: auto; /* Remova a propriedade right ou ajuste conforme necessário */
+  }
+
+  .card-label__content {
+    font-size: 10px; /* Ajuste o tamanho da fonte para telas menores, se necessário */
+    height: 30px; /* Ajuste a altura para telas menores, se necessário */
+    padding: 0 20px; /* Ajuste o preenchimento conforme necessário */
+  }
+}

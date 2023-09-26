@@ -1,0 +1,10 @@
+/* Estilos para telas menores (por exemplo, telas menores que 768px de largura) */
+@media (max-width: 768px) {
+  .card-pricing__title {
+    font-size: 1em; 
+  }
+
+  .card-pricing__value__console > span {
+    font-size: 0.9em; 
+  }
+}

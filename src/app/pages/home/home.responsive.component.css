@@ -1,0 +1,8 @@
+@media (max-width: 560px) {
+  .home__container {
+    width: 100%; /* Ocupa toda a largura da tela */
+    padding-top: 1%;
+    justify-content: center; /* Centralize os itens horizontalmente */
+    align-items: center; /* Centralize os itens verticalmente */
+  }
+}

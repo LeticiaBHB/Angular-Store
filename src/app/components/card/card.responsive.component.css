@@ -1,0 +1,12 @@
+/* Adicione media queries para ajustar o layout em diferentes tamanhos de tela */
+@media (max-width: 560px) {
+  .card__container {
+    max-width: 100%; /* Em telas menores, ocupe a largura total do container pai */
+  }
+  .card__img {
+    /* Tornando a imagem responsiva */
+    width: 50%; /* A imagem ocupará 100% da largura do seu container */
+    height: 50%; /* A altura será ajustada automaticamente proporcionalmente à largura */
+    transition: transform 0.8s;
+  }
+}

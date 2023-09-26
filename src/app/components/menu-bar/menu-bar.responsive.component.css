@@ -1,0 +1,24 @@
+/* Estilos para telas menores (menu hamburger) */
+@media (max-width: 560px) {
+  .menu-bar__toggle {
+    display: block; /* Mostra o ícone do menu hamburger */
+    color: black; /* Define a cor preta para o ícone do menu hamburger */
+    position: absolute; /* Posição absoluta para alinhar à direita */
+    right: 20px; /* Distância da borda direita da tela */
+    top: 0; /* Alinhar no topo */
+  }
+
+  .menu-bar__item {
+    display: none; /* Esconde o menu de navegação normal */
+  }
+
+  .menu-bar__item.active {
+    display: block; /* Mostra o menu de navegação normal quando clicado no ícone do menu hamburger */
+    position: absolute; /* Posição absoluta para alinhar à direita */
+    right: 0; /* Alinhar à direita */
+    top: 40px; /* Distância da parte superior (deixe espaço para o cabeçalho) */
+    background-color: #ffffff; /* Cor de fundo branca para o menu hamburger */
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5); /* Sombra para o menu hamburger */
+    z-index: 1000; /* Z-index maior para garantir que fique na frente de outros elementos */
+  }
+}
